@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Data Mahasiswa</title>
+</head>
+<body>
+    
+    <form>
+        <table border="1" cellpadding="8" cellspacing="0" align="center">
+            <tr>
+                <td colspan="3" bgcolor="grey" align="center">
+                    <b>INPUT DATA MAHASISWA</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td>
+                    <input type="password" name="password">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Fullname</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="fullname">
+                </td>
+            </tr>
+
+            <tr>
+                <td>E-mail</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="email">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option name="agama" selected>--Pilih Agama--</option>
+                        <option value="Islam">Islam</option>
+                        <Option value="Kristen">Kristen</Option>
+                        <option value="Hindu">Hindu</option>
+                        <Option value="Buddha">Buddha</Option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jeniskel" value="Laki-laki"> Laki-laki
+                    <input type="radio" name="jeniskel" value="Perempuan"> Perempuan
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobi" value="Musik">Musik
+                    <input type="checkbox" name="hobi" value="Olahraga">Olahraga
+                    <input type="checkbox" name="hobi" value="Gaming">Gaming
+                    <input type="checkbox" name="hobi" value="Lainnya">Lainnya
+                </td>
+            </tr>
+
+            <tr>
+                <td>Profil Singkat</td>
+                <td>:</td>
+                <td>
+                    <textarea rows="4" cols="50" name="profile"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" align="right">
+                    <input type="submit" value="Input">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
