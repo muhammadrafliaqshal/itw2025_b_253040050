@@ -1,0 +1,35 @@
+/* Kode CSS disalin persis dari Latihan 3b yang Anda kirimkan */
+
+body {
+  background-color: aqua;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-family: Comic Sans MS;
+  font-size: 60px;
+  color: blue;
+}
+
+h3 a {
+  color: white;
+}
+
+h4 {
+  text-align: end;
+  font-style: italic;
+}
+
+p {
+  /* text-align: center; akan menimpa text-align: justify; */
+  text-align: justify;
+  text-align: center;
+}
+
+#paragraf1 {
+  color: orange;
+}
+
+#paragraf2 {
+  line-height: 25px;
+}
