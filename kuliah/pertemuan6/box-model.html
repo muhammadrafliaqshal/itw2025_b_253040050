@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      .kotak1 {
+        width: 150px;
+        height: 150px;
+        background-color: salmon;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        transform: bottom bottom;
+        transition: 2s;
+        /*margin: 10px 20px 30px 40px;*/
+        /* margin: auto;*/
+        margin-left: 100px;
+      }
+
+      .kotak1: {
+        margin-left: 0px;
+        transform: rotate(0deg);
+      }
+
+      .kotak2 {
+        width: 80px;
+        height: 80px;
+        background-color: aqua;
+        margin-top: 40px;
+        margin-left: 30px;
+        transition: 2s;
+        padding: 20px;
+        border: 4px dotted;
+        margin-bottom: 100px;
+      }
+
+      .kotak2: {
+        margin-left: 0px;
+      }
+
+      a {
+        background-color: black;
+        padding: 20px;
+        font-weight: bold;
+        transition: 1s;
+      }
+
+      a:hover {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak1">Kotak1</div>
+    <div class="kotak2">kotak2</div>
+
+    <a href="HOME">HOME</a>
+    <a href="PRODUCTS">PRODUCTS</a>
+    <a href="MY HOUSE">MY HOUSE</a>
+    <a href="ABOUT">ABOUT</a>
+  </body>
+</html>
