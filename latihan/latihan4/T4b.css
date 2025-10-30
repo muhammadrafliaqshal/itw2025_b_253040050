@@ -1,0 +1,115 @@
+:root {
+  --warna-primer: #4f200d;
+  --warna-sekunder: #a7727d;
+  --warna-teks: #333;
+  --warna-background: #f8f8f8;
+  --warna-link: #3e3232;
+}
+
+body {
+  background-color: var(--warna-background);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--warna-teks);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* HEADER & NAVIGASI */
+.header {
+  background-color: var(--warna-primer);
+  color: #fff;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.header .judul {
+  margin: 0 0 10px 0;
+  font-size: 2.5em;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.header li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url("img/kopi-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 320px;
+}
+
+.hero.gambar-hero-sangat-kecil {
+  height: 200px;
+}
+
+.content {
+  padding: 30px;
+}
+
+.judul-artikel {
+  color: var(--warna-primer);
+  border-bottom: 2px solid var(--warna-sekunder);
+  padding-bottom: 10px;
+}
+
+.penulis {
+  font-style: italic;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.gambar-artikel-kecil {
+  width: 30%;
+  height: auto;
+  margin-bottom: 15px;
+  border: 2px solid var(--warna-sekunder);
+  padding: 3px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.gambar-artikel-kecil.kiri {
+  float: left;
+  margin-right: 15px;
+}
+
+.gambar-artikel-kecil.kanan {
+  float: right;
+  margin-left: 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--warna-primer);
+  color: #fff;
+  padding: 10px 30px;
+  text-align: center;
+}

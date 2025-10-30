@@ -1,29 +1,19 @@
-/* ================================================= */
-/* T4a.css - Menggunakan Konsep Box Model */
-/* ================================================= */
-
-/* BODY: Pengaturan Dasar Halaman */
 body {
   font: 16px/28px Arial, serif;
-  color: #333; /* Warna teks abu-abu tua */
-  background-color: #eaeaea; /* Warna background halaman abu-abu muda */
+  color: #333;
+  background-color: #eaeaea;
 
-  /* Background Pattern (Harus ada di folder img) */
   background-image: url("img/sativa.png");
 }
 
-/* CONTAINER: Pembungkus Utama */
 .container {
-  width: 800px; /* Lebar 800px */
-  margin: auto; /* Memposisikan kotak di tengah halaman */
+  width: 800px;
+  margin: auto;
   background-color: white;
 }
 
-/* ================================================= */
-/* HEADER & NAVIGASI */
-/* ================================================= */
 .header {
-  padding: 20px 20px 10px 20px; /* Padding (jarak dalam kotak) */
+  padding: 20px 20px 10px 20px;
 }
 
 .header .judul {
@@ -32,74 +22,83 @@ body {
 }
 
 .header ul {
-  list-style: none; /* Hilangkan bullet */
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .header li {
-  display: inline-block; /* Membuat menu sejajar */
+  display: inline-block;
   margin-top: 20px;
-  margin-right: 10px; /* Jarak antar link (Box Model: Margin) */
+  margin-right: 10px;
 }
 
 .header a {
   text-decoration: none;
   color: salmon;
-  padding: 3px; /* Padding untuk area hover */
+  padding: 3px;
 }
 
 .header a:hover {
-  background-color: lightskyblue; /* Warna background saat disorot (hover) */
+  background-color: lightskyblue;
   color: white;
 }
 
-/* ================================================= */
-/* HERO IMAGE (BANNER) */
-/* ================================================= */
 .hero {
   height: 280px;
-
-  /* Background image (Harus ada di folder img) */
   background-image: url("img/hero.png");
-  background-size: cover; /* Agar gambar mengisi penuh kotak */
-  background-position: 0 -180px; /* Geser gambar ke atas (vertikal) */
-
-  /* Aksen Border (Tepi Kotak) */
+  background-size: cover;
+  background-position: 0 -180px;
   border-top: 5px solid salmon;
   border-bottom: 5px solid lightskyblue;
 }
 
-/* ================================================= */
-/* CONTENT (ARTIKEL) */
-/* ================================================= */
 .content {
   padding: 20px;
 }
 
 .content h2 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
+  color: DarkBlue;
+  text-align: center;
 }
 
 .content .penulis {
   font-size: 14px;
-  margin-top: -5px; /* Ditarik sedikit ke atas (Margin negatif) */
+  margin-top: -5px;
+  color: Gray;
+  font-style: italic;
+  text-align: center;
+}
+.content .penulis-oleh {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
-.content .penulis a {
-  color: salmon;
+.content .penulis-oleh a {
+  color: Orange;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .content p {
   font-size: 14px;
-  margin-bottom: 20px; /* Jarak antar paragraf (Box Model: Margin Bottom) */
+  margin-bottom: 20px;
+  text-align: justify;
 }
 
-/* ================================================= */
-/* FOOTER */
-/* ================================================= */
+#paragraf1 {
+  color: Brown;
+}
+
+#paragraf2 {
+  line-height: 25px;
+}
+
 .footer {
   background-color: #333;
   padding: 10px;
