@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>The Avengers</h1>
+
+    <div class="container">
+      <ul class="gallery">
+        <li>
+          <a href="#gambar-cap">
+            <img src="img/thumbs/cap.png" alt="Captain America" />
+            <span>Captain America</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#gambar-ironman">
+            <img src="img/thumbs/iron-man.png" alt="Iron Man" />
+            <span>Iron Man</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#gambar-hulk">
+            <img src="img/thumbs/hulk.png" alt="Hulk" />
+            <span>Hulk</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#gambar-thor">
+            <img src="img/thumbs/thor.png" alt="Thor" />
+            <span>Thor</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="overlay" id="gambar-cap">
+      <a href="#" class="close">X Close</a>
+      <a href="#gambar-thor" class="prev"><img src="img/prev.png" alt="" /></a>
+      <img src="img/full/cap.png" alt="Captain America Full" />
+      <a href="#gambar-ironman" class="next"
+        ><img src="img/next.png" alt=""
+      /></a>
+    </div>
+
+    <div class="overlay" id="gambar-ironman">
+      <a href="#" class="close">X Close</a>
+      <a href="#gambar-cap" class="prev"><img src="img/prev.png" alt="" /></a>
+      <img src="img/full/iron-man.png" alt="Iron Man Full" />
+      <a href="#gambar-hulk" class="next"><img src="img/next.png" alt="" /></a>
+    </div>
+
+    <div class="overlay" id="gambar-hulk">
+      <a href="#" class="close">X Close</a>
+      <a href="#gambar-ironman" class="prev"
+        ><img src="img/prev.png" alt=""
+      /></a>
+      <img src="img/full/hulk.png" alt="Hulk Full" />
+      <a href="#gambar-thor" class="next"><img src="img/next.png" alt="" /></a>
+    </div>
+
+    <div class="overlay" id="gambar-thor">
+      <a href="#" class="close">X Close</a>
+      <a href="#gambar-hulk" class="prev"><img src="img/prev.png" alt="" /></a>
+      <img src="img/full/thor.png" alt="Thor Full" />
+      <a href="#gambar-cap" class="next"><img src="img/next.png" alt="" /></a>
+    </div>
+  </body>
+</html>
