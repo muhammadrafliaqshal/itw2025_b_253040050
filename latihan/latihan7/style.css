@@ -1,0 +1,27 @@
+/*
+ * style.css - VERSI BARU
+ * Struktur Kode Berbeda, Hasil Visual Tetap Sama
+ */
+
+/*
+ * PENGATURAN TAMPILAN BERDASARKAN KOMPONEN
+ * Mengatur latar belakang yang sama untuk Jumbotron dan Projects (agar sesuai dengan SVG wave)
+ */
+/*
+ * PENGATURAN JARAK UNTUK FIXED NAVBAR
+ * Menghindari konten tertutup oleh Navbar (fixed-top)
+ */
+
+/* 1. Padding Khusus untuk Jumbotron (Paling Atas) */
+.jumbotron {
+  /* Padding-top ini lebih besar (6rem) untuk menampung Navbar */
+  padding-top: 6rem;
+}
+
+/* 2. Padding Global untuk Semua Section Lain */
+/* Menerapkan padding-top untuk About, Projects, dan Contact */
+#about,
+#projects,
+#contact {
+  padding-top: 5rem;
+}
